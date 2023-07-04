@@ -1,0 +1,37 @@
+body {
+    padding: 8px;
+    background: #111111;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    border-radius: 8px;
+    margin: 2px;
+    text-align: center;
+    color: black !important;
+}
+
+input:focus {
+    background: yellow;
+}
+
+input:active {
+    border: 1px solid blue;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    place-items: flex-start;
+}
+
+.pinContainer {
+    display: flex;
+}
